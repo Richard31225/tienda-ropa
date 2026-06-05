@@ -1,4 +1,13 @@
-/* Configuración de Identidad de Lujo Escandinava */
+/**
+ * =================================================================
+ * PROJECT: URBAN STUDIO - PREMIUM E-COMMERCE
+ * AUTHOR: Richard Mendoza (Software Engineering & AI Student)
+ * INSTITUTION: SENATI 2026
+ * VERSION: 1.0.0
+ * ARCHITECTURE: Clean Responsive CSS (Root Variables Architecture)
+ * =================================================================
+ */
+
 :root {
     --bg-white: #ffffff;
     --bg-soft: #1a1a1a;
@@ -154,7 +163,7 @@ nav a.active::after {
 .section-header h2 { font-family: 'Playfair Display', serif; font-size: 2.4rem; font-weight: 600; color: white; }
 .section-header p { color: var(--text-muted); font-size: 0.9rem; font-weight: 300; margin-top: 5px; text-transform: uppercase; letter-spacing: 0.05em; }
 
-/* CONTROLES DE FILTRO ESTILO BOUTIQUE (ADIÓS CIAN) */
+/* CONTROLES DE FILTRO ESTILO BOUTIQUE */
 .store-controls {
     display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
     gap: 20px; margin-bottom: 50px; padding-bottom: 20px; border-bottom: 1px solid var(--border-smooth);
@@ -174,7 +183,6 @@ nav a.active::after {
     padding: 10px 24px; font-weight: 500; font-size: 0.8rem; text-transform: uppercase;
     letter-spacing: 0.05em; cursor: pointer; transition: var(--transition-smooth); border-radius: 30px;
 }
-/* Cambiado a combinación elegante Blanco/Negro */
 .filter-btn.active, .filter-btn:hover { 
     color: #111111; 
     background: var(--bg-white); 
@@ -186,11 +194,12 @@ nav a.active::after {
 .product-card { background: transparent; transition: var(--transition-smooth); position: relative; cursor: pointer; }
 .product-img { height: 420px; overflow: hidden; background: var(--bg-soft); position: relative; }
 .product-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
-...product-card:hover .product-img img { transform: scale(1.05); }
+.product-card:hover .product-img img { transform: scale(1.05); }
 
 .product-info { padding: 20px 0 0 0; display: flex; justify-content: space-between; align-items: flex-start; }
 .product-info h3 { font-size: 0.95rem; font-weight: 400; color: var(--text-primary); max-width: 70%; line-height: 1.4; }
 
+/* RECIPIENTES DE PRECIO */
 .price-container { display: flex; flex-direction: column; align-items: flex-end; }
 .price-sale { color: var(--text-primary); font-weight: 600; font-size: 1rem; }
 .price-regular { color: var(--text-muted); text-decoration: line-through; font-size: 0.8rem; margin-top: 2px; }
