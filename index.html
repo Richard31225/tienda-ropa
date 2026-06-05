@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URBAN STUDIO | Premium Minimalist E-Commerce</title>
+    <!-- Google Fonts Premium -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Estilos Vinculados en la Raíz -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- CINTA PROMOCIONAL -->
     <div class="promo-bar">
         COMPRAS MAYORES A S/ 200 INCLUYEN ENVÍO PRIORITARIO GRATUITO
     </div>
 
+    <!-- CABECERA PRINCIPAL (NAVBAR) -->
     <header>
         <div class="logo" id="nav-logo">URBAN STUDIO</div>
         <nav>
@@ -32,6 +36,7 @@
         </div>
     </header>
 
+    <!-- VISTA 1: INICIO (HERO ELEGANTE) -->
     <main id="view-inicio" class="view active">
         <section class="hero">
             <div class="hero-overlay"></div>
@@ -44,6 +49,7 @@
         </section>
     </main>
 
+    <!-- VISTA 2: TIENDA / CATALOGO -->
     <main id="view-productos" class="view">
         <section class="products-section">
             <div class="section-header">
@@ -51,6 +57,7 @@
                 <p>Filtrado inteligente de alta fidelidad</p>
             </div>
             
+            <!-- BARRA DE CONTROLES PREMIUM -->
             <div class="store-controls">
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
@@ -63,18 +70,22 @@
                 </div>
             </div>
 
+            <!-- GRILLA DE PRODUCTOS -->
             <div class="products-grid" id="grid-productos">
-                </div>
+                <!-- Inyección dinámica JS -->
+            </div>
         </section>
     </main>
 
+    <!-- SIDEBAR DE LA BOLSA DE COMPRAS -->
     <div class="sidebar" id="cart-sidebar">
         <div class="sidebar-header">
             <h3>Tu Selección</h3>
             <span class="close-sidebar" id="close-cart-btn">✕</span>
         </div>
         <div class="sidebar-body" id="cart-items-container">
-            </div>
+            <!-- Items del carrito -->
+        </div>
         <div class="sidebar-footer">
             <div class="total-box">
                 <span>Subtotal Estimado:</span>
@@ -84,6 +95,7 @@
         </div>
     </div>
 
+    <!-- MODAL VISTA RÁPIDA -->
     <div id="product-modal" class="modal">
         <div class="modal-content">
             <span class="close-btn">&times;</span>
@@ -112,14 +124,17 @@
                     <button class="btn-primary full-width" id="add-to-cart-btn">Añadir a la Bolsa</button>
                 </div>
             </div>
+            <!-- Recomendador Cruzado Pro -->
             <div class="recommendations-container">
                 <h4>Completa el Look Alternativo</h4>
                 <div class="recommendations-grid" id="modal-recommendations">
-                    </div>
+                    <!-- Productos cruzados -->
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- MODAL AUTHENTICATION -->
     <div id="auth-modal" class="modal">
         <div class="modal-content auth-box">
             <span class="close-btn" id="close-auth-btn">&times;</span>
@@ -156,6 +171,19 @@
         </div>
     </div>
 
+    <!-- SELLO DE AUTORÍA PROFESIONAL -->
+    <footer style="background: #0b0b0b; border-top: 1px solid var(--border-smooth); padding: 40px 6%; text-align: center; margin-top: 80px;">
+        <p style="font-size: 0.8rem; color: var(--text-muted); letter-spacing: 0.05em; text-transform: uppercase;">
+            © 2026 URBAN STUDIO — Desarrollado por 
+            <strong style="color: #ffffff; letter-spacing: 0.1em;">RICHARD MENDOZA</strong> 
+            | Ing. de Software e Inteligencia Artificial
+        </p>
+        <p style="font-size: 0.7rem; color: #555555; margin-top: 10px; letter-spacing: 0.05em;">
+            Proyecto Académico SENATI — Código de Autor Protegido
+        </p>
+    </footer>
+
+    <!-- Script Vinculado en la Raíz -->
     <script src="app.js"></script>
 </body>
 </html>
