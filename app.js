@@ -7,7 +7,7 @@ const ropaProductos = [
         precioRegular: 329.00,
         tag: "superior",
         keyword: "casaca",
-        descripcion: "Casaca corte bomber estructurada, tejido técnico repelente al agua con acabados mate de alta costura.",
+        descripcion: "Casaca corte bomber estructurada, tejido técnico repellent al agua con acabados mate de alta costura.",
         imagen: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=735&auto=format&fit=crop"
     },
     {
