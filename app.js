@@ -1,3 +1,14 @@
+/**
+ * =================================================================
+ * PROJECT: URBAN STUDIO - PREMIUM E-COMMERCE
+ * AUTHOR: Richard Mendoza (Software Engineering & AI Student)
+ * INSTITUTION: SENATI 2026
+ * VERSION: 1.0.0
+ * DESCRIPTION: Front-end architecture with custom SPA routing, 
+ *              dynamic filtering, and cross-recommendation engine.
+ * =================================================================
+ */
+
 // Base de datos de prendas premium estilizadas
 const ropaProductos = [
     {
